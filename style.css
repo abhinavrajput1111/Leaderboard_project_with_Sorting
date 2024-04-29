@@ -1,0 +1,94 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.row {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 1rem;
+  background-color: aliceblue;
+  height: 3rem;
+  align-items: center;
+  margin-left: 3rem;
+  margin-right: 3rem;
+
+  /* margin-bottom: 3rem; */
+}
+
+.input {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  padding: 10px;
+  padding-left: 15px;
+}
+
+#scoreform {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.submit-btn {
+  padding: 0.5rem 1.5rem;
+  background-color: blueviolet;
+  color: white;
+  font-weight: bold;
+  border-radius: 15px;
+  border: none;
+  transition: all;
+  transition-duration: 500ms;
+}
+
+.submit-btn:hover {
+  background-color: cadetblue;
+  color: white;
+  transform: scale(1.1);
+}
+
+.heading-wrapper {
+  background-color: aliceblue;
+  height: 5rem;
+  margin-top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  text-align: center;
+  color: blueviolet;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.div {
+  /* border: 2px solid red; */
+  width: 5rem;
+  height: 1rem;
+  padding: 1rem 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.div-first {
+  width: 12rem;
+}
+
+.div-btn button {
+  width: 5rem;
+  border: 2px solid blueviolet;
+  padding: 0.5rem 1.2rem;
+  transition: all;
+  transition-duration: 500ms;
+}
+
+.div-btn button:hover {
+  background-color: aliceblue;
+  transform: scale(1.1);
+}
